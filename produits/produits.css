@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 10px ;
+    margin-left: 25px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+.picture {
+    width: 15vw;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    margin-right: 10vw;
+}
+.picture:hover {
+    transform: scale(1.07);
+}
+
+
+td {
+    padding: 35px;
+}
+
+.price {
+    font-weight: bold;
+    color: #28a745;
+    margin-top: 5px;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    color: #6c757d;
+    margin-top: 5px;
+    
+}
+@media screen and (max-width: 950px) {
+.description
+{
+    display: none;
+}
+.picture {
+    width: 10vw;
+
+}
+td
+{
+    padding: 5px;
+}
+}

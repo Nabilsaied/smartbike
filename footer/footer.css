@@ -1,0 +1,38 @@
+#pied{
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+}
+.footer-text {
+    max-width: 30%;
+}
+.footerTitle {
+    font-size: 1.5vw;
+}
+#help {
+    font-size: 1.3vw;
+}
+#address {
+    font-style: normal;
+    font-size: 1.6vw;
+}
+#small {
+    display: block;
+    margin-top: 10px;
+    font-size: 1vw;
+    color: #ccc;
+}
+#location
+{
+    display: flex;
+    flex-direction: column;
+}
+#map
+{
+    display: block;
+}

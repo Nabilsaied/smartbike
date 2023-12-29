@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.firstContainer {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+}
+
+    .pictureMain {
+        width: 40%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .pictureMain img {
+        max-width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+        border-radius: 25px;
+        }
+            .pictureMain img:hover {
+            transform: scale(1.05);
+        }
+    .textMain {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: 100%;
+    }
+        .textMain h1 {
+            font-size: 3vw;
+            order: 1;
+        }
+
+        .textMain p {
+            line-height: 1.5;
+            max-width: 60%;
+            font-size: 1.2vw;
+            order: 2;
+        }
+
+        .textMain a {
+            max-width: 65%;
+            background-color: #043872;
+            color: white;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            order: 3;
+        }
+
+.secondContainer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+}
+    .pictureSec{
+        order: 3;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .pictureSec img{
+            max-width: 100%;
+            height: auto;
+            border-radius: 25px;
+        }
+    .secondContainer h2{
+        font-size: 3vw;
+        order: 1;
+    }
+    .secondContainer form{
+        order: 2;
+        padding-bottom: 2%;
+    }
+.thirdContainer {
+    margin-top: 4%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+}
+    .pictureThird{
+        order: 3;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .pictureThird img{
+            max-width: 100%;
+            height: auto;
+            border-radius: 25px;
+        }
+    .thirdContainer h2{
+        font-size: 3vw;
+        order: 1;
+    }
+    .thirdContainer form{
+        order: 2;
+        padding-bottom: 2%;
+    }
+
+.mainButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #043872;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.mainButton:hover {
+    background-color: #0356a5;
+}
+
+@media screen and (max-width: 950px) {
+    .firstContainer {
+        margin-top: 2%;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+    }
+    
+        .pictureMain {
+            margin-top: -10%;
+            order: 3;
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .pictureMain img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 25px;
+            }
+            .textMain {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                padding-bottom: 2%;
+            }
+        
+            .textMain h1 {
+                font-size: 5vw;
+                order: 1;
+            }
+        
+            .textMain p {
+                visibility: hidden;
+                line-height: 1.5;
+                max-width: 60%;
+                font-size: 1.2vw;
+                order: 3;
+                height: 1%;
+                margin-top: -12%;
+            }
+        
+            .textMain a {
+                background-color: #043872;
+                color: white;
+                text-decoration: none;
+                border: none;
+                cursor: pointer;
+                order: 2;
+                padding-bottom: 2%;
+            }
+        }
+
